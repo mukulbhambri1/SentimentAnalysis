@@ -1,0 +1,13 @@
+pip install TextBlob
+
+from textblob import TextBlob
+
+feedback1="Food was good"
+feedback2="Food was very good"
+feedback3="Food was excellent"
+b1=TextBlob(feedback1)
+b2=TextBlob(feedback2)
+b3=TextBlob(feedback3)
+print(b1.sentiment)
+print(b2.sentiment)
+print(b3.sentiment)
